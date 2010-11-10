@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<internacionalizacao>
+	<entidade>
+		<nome>Tipo Local</nome>
+		<propriedades>
+		<propriedade nome='idTipoLocal'>
+			<nome>Código</nome>
+			<abreviacao>Cód.</abreviacao>
+			<descricao>Informe o Código</descricao>
+		</propriedade>
+		<propriedade nome='dsTipoLocal'>
+			<nome>Tipo de Local</nome>
+			<abreviacao>Descrição</abreviacao>
+			<descricao>Informe o  Tipo de Local</descricao>
+		</propriedade>
+		</propriedades>
+	</entidade>
+	<controles>
+		<titulo>Cadastro de Tipo Local</titulo>
+	</controles>
+</internacionalizacao>

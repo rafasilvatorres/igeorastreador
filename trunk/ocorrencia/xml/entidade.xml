@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<entidade  nomeBanco='ocorrencia' nomeSequencia='sq_ocorrencia'>
+	<propriedades>
+		<propriedade id='idOcorrencia' tipo='numerico' tamanho='10' obrigatorio='sim' indicePrimario='sim'  >
+			<banco nome='ocor_id_ocorrencia'  />
+			<apresentacao componente='oculto'  />
+		</propriedade>
+		<propriedade id='idVeiculo' tipo='numerico' tamanho='10' obrigatorio='sim' classeAssociativa='NVeiculo' metodoLeitura='lerTodos' descritivo='1'  >
+			<banco nome='ocor_id_veiculo' ordem='1' >
+				<chaveEstrangeira tabela='public.veiculo' campo='veic_id_veiculo' />
+			</banco>
+			<apresentacao componente='caixa de combinacao' >
+				<listagem ordem='1' tamanho='30%' />
+			</apresentacao>
+		</propriedade>
+		<propriedade id='idTipoOcorrencia' tipo='numerico' tamanho='10' classeAssociativa='NTipoOcorrencia' metodoLeitura='lerTodos' descritivo='2'  >
+			<banco nome='ocor_id_tipo_ocorrencia' ordem='2' >
+				<chaveEstrangeira tabela='public.tipo_ocorrencia' campo='tioc_id_tipo_ocorrencia' />
+			</banco>
+			<apresentacao componente='caixa de combinacao' >
+				<listagem ordem='2' tamanho='30%' />
+			</apresentacao>
+		</propriedade>
+		<propriedade id='dtOcorrencia' tipo='data' descritivo='3'  >
+			<banco nome='ocor_dt_ocorrencia' ordem='3'  />
+			<apresentacao componente='data' >
+				<listagem ordem='3' tamanho='30%' />
+			</apresentacao>
+		</propriedade>
+		<propriedade id='teObservacao' tipo='texto'  >
+			<banco nome='ocor_te_observacao'  />
+			<apresentacao componente='caixa de texto'  />
+		</propriedade>
+		<propriedade id='boLancamentoAutomatico' tipo='numerico' tamanho='1'  >
+			<banco nome='ocor_bo_lancamento_automatico'  />
+			<apresentacao componente='oculto'  />
+		</propriedade>
+	</propriedades>
+</entidade>

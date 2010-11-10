@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<internacionalizacao>
+	<entidade>
+		<nome>Encomenda</nome>
+		<propriedades>
+		<propriedade nome='idEncomenda'>
+			<nome>Código da Encomenda</nome>
+			<abreviacao>Código da Encomenda</abreviacao>
+			<descricao>Informe o Código</descricao>
+		</propriedade>
+		<propriedade nome='idPercurso'>
+			<nome>Percurso para Entrega</nome>
+			<abreviacao>Percurso</abreviacao>
+			<descricao>Informe o Percurso para Entrega da Encomenda</descricao>
+		</propriedade>
+		<propriedade nome='idCliente'>
+			<nome>Cliente</nome>
+			<abreviacao>Cliente</abreviacao>
+			<descricao>Informe o Cliente que solicitou a entrega da Encomenda</descricao>
+		</propriedade>
+		<propriedade nome='cdRastreamento'>
+			<nome>Código de Rastreamento</nome>
+			<abreviacao>Código Rastreamento</abreviacao>
+			<descricao>Informe o Código de Rastreamento</descricao>
+		</propriedade>
+		<propriedade nome='dsEncomenda'>
+			<nome>Descrição da Encomenda</nome>
+			<abreviacao>Descrição da Encomenda</abreviacao>
+			<descricao>Descreva a Encomenda</descricao>
+		</propriedade>
+		<propriedade nome='teObservacao'>
+			<nome>Observação</nome>
+			<abreviacao>Observação</abreviacao>
+			<descricao>Informe Observações inerentes a encomenda</descricao>
+		</propriedade>
+		<propriedade nome='dtCadastro'>
+			<nome>Data de Cadastro</nome>
+			<abreviacao>Data de Cadastro</abreviacao>
+			<descricao>Informe a Data de Cadastro da Encomenda no Sistema</descricao>
+		</propriedade>
+		<propriedade nome='csEntregue'>
+			<nome>Entrega Realizada</nome>
+			<abreviacao>Entrega Realizada</abreviacao>
+			<descricao>Informe se a Entrega foi realizada ou não</descricao>
+		</propriedade>
+		<propriedade nome='dtEntrega'>
+			<nome>Data de Entrega</nome>
+			<abreviacao>Data de Entrega</abreviacao>
+			<descricao>Informe a Data em que a encomenda foi Entregue</descricao>
+		</propriedade>
+		</propriedades>
+	</entidade>
+	<controles>
+		<titulo>Cadastro de Encomenda</titulo>
+	</controles>
+</internacionalizacao>

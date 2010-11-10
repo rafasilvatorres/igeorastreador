@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<entidade  nomeBanco='cliente' nomeSequencia='sq_cliente'>
+	<propriedades>
+		<propriedade id='idCliente' tipo='numerico' tamanho='10' obrigatorio='sim' indicePrimario='sim'  >
+			<banco nome='clie_id_cliente'  />
+			<apresentacao componente='oculto'  />
+		</propriedade>
+		<propriedade id='csTipoCliente' tipo='texto' tamanho='2' obrigatorio='sim'  >
+			<dominio>
+				<opcao id='PF' />
+				<opcao id='PJ' />
+			</dominio>
+			<banco nome='clie_cs_tipo_cliente' ordem='1' >
+				<chaveEstrangeira tabela='' campo='' />
+			</banco>
+			<apresentacao componente='caixa de combinacao'  />
+		</propriedade>
+		<propriedade id='nmCliente' tipo='texto' tamanho='50'  >
+			<banco nome='clie_nm_cliente' ordem='2'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='idEstado' tipo='numerico' tamanho='10' classeAssociativa='NEstado' metodoLeitura='lerTodos'  >
+			<banco nome='clie_id_estado' >
+				<chaveEstrangeira tabela='public.estado' campo='esta_id_estado' />
+			</banco>
+			<apresentacao componente='caixa de combinacao'  />
+		</propriedade>
+		<propriedade id='teCidade' tipo='texto' tamanho='50'  >
+			<banco nome='clie_te_cidade'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='teBairro' tipo='texto' tamanho='50'  >
+			<banco nome='clie_te_bairro'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='teEndereco' tipo='texto' tamanho='50'  >
+			<banco nome='clie_te_endereco'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrCep' tipo='tcep' tamanho='20'  >
+			<banco nome='clie_nr_cep'  />
+			<apresentacao componente='cep'  />
+		</propriedade>
+		<propriedade id='nrTelefone' tipo='ttelefone' tamanho='20'  >
+			<banco nome='clie_nr_telefone'  />
+			<apresentacao componente='telefone'  />
+		</propriedade>
+		<propriedade id='teEmail' tipo='texto' tamanho='50'  >
+			<banco nome='clie_te_email'  />
+			<apresentacao componente='email'  />
+		</propriedade>
+	</propriedades>
+</entidade>

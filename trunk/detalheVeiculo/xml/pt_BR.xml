@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<internacionalizacao>
+	<entidade>
+		<nome>Detalhe Veículo</nome>
+		<propriedades>
+		<propriedade nome='idDetalheVeiculo'>
+			<nome>Código</nome>
+			<abreviacao>Código</abreviacao>
+			<descricao>Informe o Código</descricao>
+		</propriedade>
+		<propriedade nome='idVeiculo'>
+			<nome>Identificador Veículo</nome>
+			<abreviacao>Veículo</abreviacao>
+			<descricao>Identificador do Veículo</descricao>
+		</propriedade>
+		<propriedade nome='csTipoDetalhe'>
+			<nome>Tipo de Detalhe</nome>
+			<abreviacao>Tipo Detalhe</abreviacao>
+			<descricao>Informe o Tipo de Detalhe</descricao>
+			<dominio>
+				<opcao id='PI'>Km Pneu Inicial</opcao>
+				<opcao id='PN'>Km Pneu Acumulada</opcao>
+				<opcao id='KI'>Km Inicial Veículo</opcao>
+				<opcao id='KF'>Km Acumulada Veículo</opcao>
+			</dominio>
+		</propriedade>
+		<propriedade nome='dtDetalhe'>
+			<nome>Data de Cadastro</nome>
+			<abreviacao>Data do Cadastro</abreviacao>
+			<descricao>Informe a Data do Cadastro do Detalhe</descricao>
+		</propriedade>
+		<propriedade nome='vlDetalhe'>
+			<nome>Valor</nome>
+			<abreviacao>Valor</abreviacao>
+			<descricao>Informe o Valor do Detalhe</descricao>
+		</propriedade>
+		</propriedades>
+	</entidade>
+	<controles>
+		<titulo>Cadastro de Detalhe Veículo</titulo>
+	</controles>
+</internacionalizacao>

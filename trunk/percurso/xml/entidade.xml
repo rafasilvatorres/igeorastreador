@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<entidade  nomeBanco='percurso' nomeSequencia='sq_percurso'>
+	<propriedades>
+		<propriedade id='idPercurso' tipo='numerico' tamanho='10' obrigatorio='sim' indicePrimario='sim'  >
+			<banco nome='perc_id_percurso'  />
+			<apresentacao componente='oculto'  />
+		</propriedade>
+		<propriedade id='nmPercurso' tipo='texto' tamanho='50' obrigatorio='sim' descritivo='1'  >
+			<banco nome='perc_nm_percurso' ordem='1'  />
+			<apresentacao componente='caixa de entrada' >
+				<listagem ordem='1' tamanho='30%' />
+			</apresentacao>
+		</propriedade>
+		<propriedade id='idLocalInicio' tipo='numerico' tamanho='10' classeAssociativa='NLocal' metodoLeitura='lerTodos'  >
+			<banco nome='perc_id_local_inicio' >
+				<chaveEstrangeira tabela='public.local' campo='loca_id_local' />
+			</banco>
+			<apresentacao componente='caixa de combinacao'  />
+		</propriedade>
+		<propriedade id='idLocalFim' tipo='numerico' tamanho='10' classeAssociativa='NLocal' metodoLeitura='lerTodos'  >
+			<banco nome='perc_id_local_fim' >
+				<chaveEstrangeira tabela='public.local' campo='loca_id_local' />
+			</banco>
+			<apresentacao componente='caixa de combinacao'  />
+		</propriedade>
+		<propriedade id='csTipoPercurso' tipo='texto' tamanho='2' descritivo='2'  >
+			<dominio>
+				<opcao id='PE' />
+				<opcao id='TR' />
+			</dominio>
+			<banco nome='perc_cs_tipo_percurso'  />
+			<apresentacao componente='caixa de combinacao' >
+				<listagem ordem='2' tamanho='30%' />
+			</apresentacao>
+		</propriedade>
+	</propriedades>
+</entidade>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<entidade  nomeBanco='trecho' nomeSequencia='sq_trecho'>
+	<propriedades>
+		<propriedade id='idTrecho' tipo='numerico' tamanho='10' obrigatorio='sim' indicePrimario='sim'  >
+			<banco nome='trec_id_trecho'  />
+			<apresentacao componente='oculto'  />
+		</propriedade>
+		<propriedade id='idPercurso' tipo='numerico' tamanho='10' classeAssociativa='NPercurso' metodoLeitura='lerTodos'  >
+			<banco nome='trec_id_percurso' >
+				<chaveEstrangeira tabela='public.percurso' campo='perc_id_percurso' />
+			</banco>
+			<apresentacao componente='caixa de combinacao'  />
+		</propriedade>
+		<propriedade id='nrLatitudeInicial' tipo='texto' tamanho='20'  >
+			<banco nome='trec_nr_latitude_inicial'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrLongitudeInicial' tipo='texto' tamanho='20'  >
+			<banco nome='trec_nr_longitude_inicial'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrLatitudeFinal' tipo='texto' tamanho='20'  >
+			<banco nome='trec_nr_latitude_final'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrLongitudeFinal' tipo='texto' tamanho='20'  >
+			<banco nome='trec_nr_longitude_final'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrOrdem' tipo='numerico' tamanho='2'  >
+			<banco nome='trec_nr_ordem' ordem='1'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+	</propriedades>
+</entidade>

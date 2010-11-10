@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<internacionalizacao>
+	<entidade>
+		<nome>Local</nome>
+		<propriedades>
+		<propriedade nome='idLocal'>
+			<nome>Código</nome>
+			<abreviacao>Código</abreviacao>
+			<descricao>Informe o Código</descricao>
+		</propriedade>
+		<propriedade nome='idTipoLocal'>
+			<nome>Tipo de Local</nome>
+			<abreviacao>Tipo de Local</abreviacao>
+			<descricao>Informe o  Tipo de Local</descricao>
+		</propriedade>
+		<propriedade nome='nmLocal'>
+			<nome>Nome do Local</nome>
+			<abreviacao>Nome do Local</abreviacao>
+			<descricao>Informe o Nome do Local</descricao>
+		</propriedade>
+		<propriedade nome='teLatitude'>
+			<nome>Latitude</nome>
+			<abreviacao>Latitude</abreviacao>
+			<descricao>Informe a Latitude do Local</descricao>
+		</propriedade>
+		<propriedade nome='teLongitude'>
+			<nome>Longitude</nome>
+			<abreviacao>Longitude</abreviacao>
+			<descricao>Informe a Longitude do Local</descricao>
+		</propriedade>
+		</propriedades>
+	</entidade>
+	<controles>
+		<titulo>Cadastro de Local</titulo>
+	</controles>
+</internacionalizacao>

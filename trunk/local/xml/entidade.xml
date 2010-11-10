@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<entidade  nomeBanco='local' nomeSequencia='sq_local'>
+	<propriedades>
+		<propriedade id='idLocal' tipo='numerico' tamanho='10' obrigatorio='sim' indicePrimario='sim'  >
+			<banco nome='loca_id_local'  />
+			<apresentacao componente='oculto'  />
+		</propriedade>
+		<propriedade id='idTipoLocal' tipo='numerico' tamanho='10' classeAssociativa='NTipoLocal' metodoLeitura='lerTodos' descritivo='1'  >
+			<banco nome='loca_id_tipo_local' >
+				<chaveEstrangeira tabela='public.tipo_local' campo='tilo_id_tipo_local' />
+			</banco>
+			<apresentacao componente='caixa de combinacao' >
+				<listagem ordem='1' tamanho='80%' />
+			</apresentacao>
+		</propriedade>
+		<propriedade id='nmLocal' tipo='texto' descritivo='2'  >
+			<banco nome='loca_nm_local' ordem='1'  />
+			<apresentacao componente='caixa de entrada' >
+				<listagem ordem='2' tamanho='60%' />
+			</apresentacao>
+		</propriedade>
+		<propriedade id='teLatitude' tipo='texto'  >
+			<banco nome='loca_nr_latitude'  />
+			<apresentacao componente='caixa de entrada' >
+				<listagem ordem='3' tamanho='60%' />
+			</apresentacao>
+		</propriedade>
+		<propriedade id='teLongitude' tipo='texto'  >
+			<banco nome='loca_nr_longitude'  />
+			<apresentacao componente='caixa de entrada' >
+				<listagem ordem='4' tamanho='60%' />
+			</apresentacao>
+		</propriedade>
+	</propriedades>
+</entidade>

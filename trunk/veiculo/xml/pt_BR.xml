@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<internacionalizacao>
+	<entidade>
+		<nome>Veiculo</nome>
+		<propriedades>
+		<propriedade nome='idVeiculo'>
+			<nome>Código</nome>
+			<abreviacao>Código</abreviacao>
+			<descricao>Informe o Código do Veículo</descricao>
+		</propriedade>
+		<propriedade nome='idEmpresa'>
+			<nome>Empresa</nome>
+			<abreviacao>Empresa</abreviacao>
+			<descricao>Informe a Empresa do Veículo</descricao>
+		</propriedade>
+		<propriedade nome='dtInicioOperacao'>
+			<nome>Data de Inicio da Operação</nome>
+			<abreviacao>Dt. Inicio Operação</abreviacao>
+			<descricao>Informe a Data de início de operação do Veículo</descricao>
+		</propriedade>
+		<propriedade nome='nrImei'>
+			<nome>Número do Imei</nome>
+			<abreviacao>Número do Imei</abreviacao>
+			<descricao>Informe o Imei do GPS instalado no Veículo</descricao>
+		</propriedade>
+		</propriedades>
+	</entidade>
+	<controles>
+		<titulo>Cadastro de Veiculo</titulo>
+	</controles>
+</internacionalizacao>

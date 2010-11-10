@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<internacionalizacao>
+	<entidade>
+		<nome>Ocorrência</nome>
+		<propriedades>
+		<propriedade nome='idOcorrencia'>
+			<nome>Código da Ocorrência</nome>
+			<abreviacao>Código</abreviacao>
+			<descricao>Informe o Código</descricao>
+		</propriedade>
+		<propriedade nome='idVeiculo'>
+			<nome>Veículo</nome>
+			<abreviacao>Veículo</abreviacao>
+			<descricao>Selecione o Veículo</descricao>
+		</propriedade>
+		<propriedade nome='idTipoOcorrencia'>
+			<nome>Tipo de Ocorrência</nome>
+			<abreviacao>Tipo Ocorrência</abreviacao>
+			<descricao>Selecione o Tipo da Ocorrência</descricao>
+		</propriedade>
+		<propriedade nome='dtOcorrencia'>
+			<nome>Data da Ocorrência</nome>
+			<abreviacao>Data da Ocorrência</abreviacao>
+			<descricao>Informe a Data da Ocorrência</descricao>
+		</propriedade>
+		<propriedade nome='teObservacao'>
+			<nome>Observação</nome>
+			<abreviacao>Obs.</abreviacao>
+			<descricao>Informe a Observação da Ocorrência</descricao>
+		</propriedade>
+		<propriedade nome='boLancamentoAutomatico'>
+			<nome>Lançamento Automático</nome>
+			<abreviacao>Lançamento Automático</abreviacao>
+			<descricao>Lançamento Automático</descricao>
+		</propriedade>
+		</propriedades>
+	</entidade>
+	<controles>
+		<titulo>Cadastro de Ocorrência</titulo>
+	</controles>
+</internacionalizacao>

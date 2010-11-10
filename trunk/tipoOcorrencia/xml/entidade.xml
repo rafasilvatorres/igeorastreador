@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<entidade  nomeBanco='tipo_ocorrencia' nomeSequencia='sq_tipo_ocorrencia'>
+	<propriedades>
+		<propriedade id='idTipoOcorrencia' tipo='numerico' tamanho='10' obrigatorio='sim' indicePrimario='sim'  >
+			<banco nome='tioc_id_tipo_ocorrencia'  />
+			<apresentacao componente='oculto'  />
+		</propriedade>
+		<propriedade id='dsTipoOcorrencia' tipo='texto' tamanho='60' descritivo='1'  >
+			<banco nome='tioc_ds_tipo_ocorrencia' ordem='1'  />
+			<apresentacao componente='caixa de entrada' >
+				<listagem ordem='1' tamanho='50%' />
+			</apresentacao>
+		</propriedade>
+	</propriedades>
+</entidade>
