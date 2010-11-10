@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<entidade  nomeBanco='veiculo' nomeSequencia='sq_veiculo'>
+	<propriedades>
+		<propriedade id='idVeiculo' tipo='numerico' tamanho='10' obrigatorio='sim' indicePrimario='sim'  >
+			<banco nome='veic_id_veiculo'  />
+			<apresentacao componente='oculto'  />
+		</propriedade>
+		<propriedade id='idEmpresa' tipo='numerico' tamanho='10' classeAssociativa='NPessoa' metodoLeitura='lerEmpresasInternas' descritivo='1'  >
+			<banco nome='veic_id_pessoa' ordem='1' >
+				<chaveEstrangeira tabela='public.pessoa' campo='pess_id_pessoa' />
+			</banco>
+			<apresentacao componente='caixa de combinacao' >
+				<listagem ordem='1' tamanho='30%' />
+			</apresentacao>
+		</propriedade>
+		<propriedade id='dtInicioOperacao' tipo='data' descritivo='2'  >
+			<banco nome='veic_dt_inicio_operacao'  />
+			<apresentacao componente='data' >
+				<listagem ordem='2' tamanho='30%' />
+			</apresentacao>
+		</propriedade>
+		<propriedade id='nrImei' tipo='numerico' tamanho='15' descritivo='2'  >
+			<banco nome='veic_nr_imei'  />
+			<apresentacao componente='caixa de entrada' >
+				<listagem ordem='2' tamanho='30%' />
+			</apresentacao>
+		</propriedade>
+	</propriedades>
+</entidade>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<entidade  nomeBanco='detalhe_veiculo' nomeSequencia='sq_detalhe_veiculo'>
+	<propriedades>
+		<propriedade id='idDetalheVeiculo' tipo='numerico' tamanho='10' obrigatorio='sim' indicePrimario='sim'  >
+			<banco nome='deve_id_detalhe_veiculo'  />
+			<apresentacao componente='oculto'  />
+		</propriedade>
+		<propriedade id='idVeiculo' tipo='numerico' tamanho='10' obrigatorio='sim' classeAssociativa='NVeiculo' metodoLeitura='lerTodos' descritivo='1'  >
+			<banco nome='deve_id_veiculo' ordem='1' >
+				<chaveEstrangeira tabela='public.veiculo' campo='veic_id_veiculo' />
+			</banco>
+			<apresentacao componente='caixa de combinacao' >
+				<listagem ordem='1' tamanho='30%' />
+			</apresentacao>
+		</propriedade>
+		<propriedade id='csTipoDetalhe' tipo='texto' tamanho='2' descritivo='2'  >
+			<dominio>
+				<opcao id='PI' />
+				<opcao id='PN' />
+				<opcao id='KI' />
+				<opcao id='KF' />
+			</dominio>
+			<banco nome='deve_cs_tipo_detalhe'  />
+			<apresentacao componente='caixa de combinacao' >
+				<listagem ordem='2' tamanho='30%' />
+			</apresentacao>
+		</propriedade>
+		<propriedade id='dtDetalhe' tipo='data' descritivo='3'  >
+			<banco nome='deve_dt_detalhe'  />
+			<apresentacao componente='data' >
+				<listagem ordem='3' tamanho='30%' />
+			</apresentacao>
+		</propriedade>
+		<propriedade id='vlDetalhe' tipo='numerico'  >
+			<banco nome='deve_vl_detalhe'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+	</propriedades>
+</entidade>

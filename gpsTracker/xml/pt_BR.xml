@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<internacionalizacao>
+	<entidade>
+		<nome>GPS Tracker</nome>
+		<propriedades>
+		<propriedade nome='idTracker'>
+			<nome>Código do Tracker</nome>
+			<abreviacao>Código do Tracker</abreviacao>
+			<descricao>Informe o Código do Tracker</descricao>
+		</propriedade>
+		<propriedade nome='nrSerial'>
+			<nome>Serial</nome>
+			<abreviacao>Serial</abreviacao>
+			<descricao>Serial</descricao>
+		</propriedade>
+		<propriedade nome='nrAutorizado'>
+			<nome>Número Autorizado</nome>
+			<abreviacao>Número Autorizado</abreviacao>
+			<descricao>Número Autorizado</descricao>
+		</propriedade>
+		<propriedade nome='csTipoMensagem'>
+			<nome>Tipo de Mensagem</nome>
+			<abreviacao>Tipo de Mensagem</abreviacao>
+			<descricao>Tipo de Mensagem</descricao>
+		</propriedade>
+		<propriedade nome='nrTempoUtc'>
+			<nome>Tempo UTC</nome>
+			<abreviacao>Tempo UTC</abreviacao>
+			<descricao>Tempo UTC</descricao>
+		</propriedade>
+		<propriedade nome='csEstadoSinal'>
+			<nome>Estado do Sinal</nome>
+			<abreviacao>Estado do Sinal</abreviacao>
+			<descricao>Estado do Sinal</descricao>
+		</propriedade>
+		<propriedade nome='nrLatitude'>
+			<nome>Latitude</nome>
+			<abreviacao>Latitude</abreviacao>
+			<descricao>Latitude</descricao>
+		</propriedade>
+		<propriedade nome='csLatitudeTipo'>
+			<nome>Latitude Tipo</nome>
+			<abreviacao>Latitude Tipo</abreviacao>
+			<descricao>Latitude Tipo</descricao>
+		</propriedade>
+		<propriedade nome='csLongitude'>
+			<nome>Longitude</nome>
+			<abreviacao>Longitude</abreviacao>
+			<descricao>Longitude</descricao>
+		</propriedade>
+		<propriedade nome='csLongitudeTipo'>
+			<nome>Longitude Tipo</nome>
+			<abreviacao>Longitude Tipo</abreviacao>
+			<descricao>Longitude Tipo</descricao>
+		</propriedade>
+		<propriedade nome='nrVelocidade'>
+			<nome>Velocidade em Nós</nome>
+			<abreviacao>Velocidade em Nós</abreviacao>
+			<descricao>Velocidade em Nós</descricao>
+		</propriedade>
+		<propriedade nome='csCurso'>
+			<nome>Curso</nome>
+			<abreviacao>Curso</abreviacao>
+			<descricao>Curso</descricao>
+		</propriedade>
+		<propriedade nome='dtGps'>
+			<nome>Data (ddmmyy)</nome>
+			<abreviacao>Data (ddmmyy)</abreviacao>
+			<descricao>Data (ddmmyy)</descricao>
+		</propriedade>
+		<propriedade nome='vlVariacaoMagnetica'>
+			<nome>Variação Magnética</nome>
+			<abreviacao>Variação Magnética</abreviacao>
+			<descricao>Variação Magnética</descricao>
+		</propriedade>
+		<propriedade nome='csModoGps'>
+			<nome>Modo GPS</nome>
+			<abreviacao>Modo GPS</abreviacao>
+			<descricao>Modo GPS</descricao>
+		</propriedade>
+		<propriedade nome='nrChecksumGprmc'>
+			<nome>Checksum GPRMC</nome>
+			<abreviacao>Checksum</abreviacao>
+			<descricao>Checksum</descricao>
+		</propriedade>
+		<propriedade nome='csIndicadorSinal'>
+			<nome>Indicador de Sinal GPS</nome>
+			<abreviacao>Indicador de Sinal GPS</abreviacao>
+			<descricao>Indicador de Sinal GPS</descricao>
+		</propriedade>
+		<propriedade nome='nrImei'>
+			<nome>Imei</nome>
+			<abreviacao>Imei</abreviacao>
+			<descricao>Imei</descricao>
+		</propriedade>
+		<propriedade nome='nrGps'>
+			<nome>Número GPS</nome>
+			<abreviacao>Número GPS</abreviacao>
+			<descricao>Número GPS</descricao>
+		</propriedade>
+		<propriedade nome='nrAltitude'>
+			<nome>Altitude</nome>
+			<abreviacao>Altitude</abreviacao>
+			<descricao>Altitude</descricao>
+		</propriedade>
+		<propriedade nome='vlBateria'>
+			<nome>Força da Bateria</nome>
+			<abreviacao>Força da Bateria</abreviacao>
+			<descricao>Força da Bateria</descricao>
+		</propriedade>
+		<propriedade nome='csCarregando'>
+			<nome>Carregador Conectado</nome>
+			<abreviacao>Carregador Conectado</abreviacao>
+			<descricao>Carregador Conectado</descricao>
+		</propriedade>
+		<propriedade nome='nrTamanhoString'>
+			<nome>Tamanho da String GPRS</nome>
+			<abreviacao>Tamanho da String GPRS</abreviacao>
+			<descricao>Tamanho da String GPRS</descricao>
+		</propriedade>
+		<propriedade nome='nrChecksum'>
+			<nome>Checksum</nome>
+			<abreviacao>Checksum</abreviacao>
+			<descricao>Checksum</descricao>
+		</propriedade>
+		<propriedade nome='nrCodigoPais'>
+			<nome>Código do País</nome>
+			<abreviacao>Código do País</abreviacao>
+			<descricao>Código do País</descricao>
+		</propriedade>
+		<propriedade nome='nrCodigoRede'>
+			<nome>Código da Rede</nome>
+			<abreviacao>Código da Rede</abreviacao>
+			<descricao>Código da Rede</descricao>
+		</propriedade>
+		<propriedade nome='nrCodigoArea'>
+			<nome>Código de Área</nome>
+			<abreviacao>Código de Área</abreviacao>
+			<descricao>Código de Área</descricao>
+		</propriedade>
+		<propriedade nome='nrIdCelular'>
+			<nome>Identificador do Celular</nome>
+			<abreviacao>Identificador do Celular</abreviacao>
+			<descricao>Identificador do Celular</descricao>
+		</propriedade>
+		</propriedades>
+	</entidade>
+	<controles>
+		<titulo>Cadastro de GPS Tracker</titulo>
+	</controles>
+</internacionalizacao>

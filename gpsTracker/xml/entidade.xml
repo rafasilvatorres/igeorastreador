@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<entidade  nomeBanco='gps_tracker' nomeSequencia='sq_gps_tracker'>
+	<propriedades>
+		<propriedade id='idTracker' tipo='numerico' tamanho='10' indicePrimario='sim'  >
+			<banco nome='gps_id_tracker' ordem='1'  />
+			<apresentacao componente='oculto'  />
+		</propriedade>
+		<propriedade id='nrSerial' tipo='texto' tamanho='15'  >
+			<banco nome='gps_nr_serial'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrAutorizado' tipo='texto' tamanho='15'  >
+			<banco nome='gps_nr_autorizado'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='csTipoMensagem' tipo='texto' tamanho='15'  >
+			<banco nome='gps_cs_tipo_mensagem'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrTempoUtc' tipo='texto' tamanho='15'  >
+			<banco nome='gps_nr_tempo_utc'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='csEstadoSinal' tipo='texto' tamanho='15'  >
+			<banco nome='gps_cs_estado_sinal'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrLatitude' tipo='texto' tamanho='15'  >
+			<banco nome='gps_nr_latitude'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='csLatitudeTipo' tipo='texto' tamanho='15'  >
+			<banco nome='gps_cs_latitude_tipo'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='csLongitude' tipo='texto' tamanho='15'  >
+			<banco nome='gps_cs_longitude'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='csLongitudeTipo' tipo='texto' tamanho='15'  >
+			<banco nome='gps_cs_longitude_tipo'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrVelocidade' tipo='texto' tamanho='15'  >
+			<banco nome='gps_nr_velocidade'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='csCurso' tipo='texto' tamanho='15'  >
+			<banco nome='gps_cs_curso'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='dtGps' tipo='texto' tamanho='15'  >
+			<banco nome='gps_dt_gps'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='vlVariacaoMagnetica' tipo='texto' tamanho='15'  >
+			<banco nome='gps_vl_variacao_magnetica'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='csModoGps' tipo='texto' tamanho='15'  >
+			<banco nome='gps_cs_modo_gps'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrChecksumGprmc' tipo='texto' tamanho='15'  >
+			<banco nome='gps_nr_checksum_gprmc'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='csIndicadorSinal' tipo='texto' tamanho='15'  >
+			<banco nome='gps_cs_indicador_gps'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrImei' tipo='texto' tamanho='15'  >
+			<banco nome='gps_nr_imei'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrGps' tipo='texto' tamanho='15'  >
+			<banco nome='gps_nr_gps'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrAltitude' tipo='texto' tamanho='15'  >
+			<banco nome='gps_nr_altitude'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='vlBateria' tipo='texto' tamanho='15'  >
+			<banco nome='gps_vl_bateria'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='csCarregando' tipo='texto' tamanho='15'  >
+			<banco nome='gps_cs_carregando'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrTamanhoString' tipo='texto' tamanho='15'  >
+			<banco nome='gps_nr_tamanho_string'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrChecksum' tipo='texto' tamanho='15'  >
+			<banco nome='gps_nr_checksum'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrCodigoPais' tipo='texto' tamanho='15'  >
+			<banco nome='gps_nr_codigo_pais'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrCodigoRede' tipo='texto' tamanho='15'  >
+			<banco nome='gps_nr_codigo_rede'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrCodigoArea' tipo='texto' tamanho='15'  >
+			<banco nome='gps_nr_codigo_area'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='nrIdCelular' tipo='texto' tamanho='15'  >
+			<banco nome='gps_nr_id_celular'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+	</propriedades>
+</entidade>

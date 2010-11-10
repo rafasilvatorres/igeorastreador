@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<entidade  nomeBanco='encomenda' nomeSequencia='sq_encomenda'>
+	<propriedades>
+		<propriedade id='idEncomenda' tipo='numerico' tamanho='10' obrigatorio='sim' indicePrimario='sim'  >
+			<banco nome='enco_id_encomenda'  />
+			<apresentacao componente='oculto'  />
+		</propriedade>
+		<propriedade id='idPercurso' tipo='numerico' tamanho='10' obrigatorio='sim' classeAssociativa='NPercurso' metodoLeitura='lerTodos'  >
+			<banco nome='enco_id_percurso' >
+				<chaveEstrangeira tabela='public.percurso' campo='perc_id_percurso' />
+			</banco>
+			<apresentacao componente='caixa de combinacao'  />
+		</propriedade>
+		<propriedade id='idCliente' tipo='numerico' tamanho='10' classeAssociativa='NCliente' metodoLeitura='lerTodos'  >
+			<banco nome='enco_id_cliente' ordem='1' >
+				<chaveEstrangeira tabela='public.cliente' campo='clie_id_cliente' />
+			</banco>
+			<apresentacao componente='caixa de combinacao'  />
+		</propriedade>
+		<propriedade id='cdRastreamento' tipo='texto' tamanho='20'  >
+			<banco nome='enco_cd_rastreamento' ordem='2'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='dsEncomenda' tipo='texto' tamanho='50'  >
+			<banco nome='enco_ds_encomenda'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='teObservacao' tipo='texto'  >
+			<banco nome='enco_te_observacao'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='dtCadastro' tipo='data'  >
+			<banco nome='enco_dt_cadastro'  />
+			<apresentacao componente='data'  />
+		</propriedade>
+		<propriedade id='csEntregue' tipo='numerico' tamanho='1'  >
+			<banco nome='enco_cs_entregue'  />
+			<apresentacao componente='caixa de entrada'  />
+		</propriedade>
+		<propriedade id='dtEntrega' tipo='data'  >
+			<banco nome='enco_dt_entrega'  />
+			<apresentacao componente='data'  />
+		</propriedade>
+	</propriedades>
+</entidade>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<internacionalizacao>
+	<entidade>
+		<nome>Cliente</nome>
+		<propriedades>
+		<propriedade nome='idCliente'>
+			<nome>Código do Cliente</nome>
+			<abreviacao>Código do Cliente</abreviacao>
+			<descricao>Informe o Código</descricao>
+		</propriedade>
+		<propriedade nome='csTipoCliente'>
+			<nome>Tipo do Cliente</nome>
+			<abreviacao>Tipo de Cliente</abreviacao>
+			<descricao>Informe o Tipo do Cliente</descricao>
+			<dominio>
+				<opcao id='PF'>Pessoa Física</opcao>
+				<opcao id='PJ'>Pessoa Jurídica</opcao>
+			</dominio>
+		</propriedade>
+		<propriedade nome='nmCliente'>
+			<nome>Nome do Cliente</nome>
+			<abreviacao>Nome do Cliente</abreviacao>
+			<descricao>Informe o Nome do Cliente</descricao>
+		</propriedade>
+		<propriedade nome='idEstado'>
+			<nome>Estado</nome>
+			<abreviacao>Estado</abreviacao>
+			<descricao>Informe o Estado do Cliente</descricao>
+		</propriedade>
+		<propriedade nome='teCidade'>
+			<nome>Cidade</nome>
+			<abreviacao>Cidade</abreviacao>
+			<descricao>Informe a Cidade do Cliente</descricao>
+		</propriedade>
+		<propriedade nome='teBairro'>
+			<nome>Bairro</nome>
+			<abreviacao>Bairro</abreviacao>
+			<descricao>Informe o Bairro do Cliente</descricao>
+		</propriedade>
+		<propriedade nome='teEndereco'>
+			<nome>Endereço</nome>
+			<abreviacao>Endereço</abreviacao>
+			<descricao>Informe o Endereço do Cliente</descricao>
+		</propriedade>
+		<propriedade nome='nrCep'>
+			<nome>CEP</nome>
+			<abreviacao>CEP</abreviacao>
+			<descricao>Informe o CEP do Cliente</descricao>
+		</propriedade>
+		<propriedade nome='nrTelefone'>
+			<nome>Telefone</nome>
+			<abreviacao>Telefone</abreviacao>
+			<descricao>Informe o Telefone do Cliente</descricao>
+		</propriedade>
+		<propriedade nome='teEmail'>
+			<nome>Email</nome>
+			<abreviacao>Email</abreviacao>
+			<descricao>Informe o Email do Cliente</descricao>
+		</propriedade>
+		</propriedades>
+	</entidade>
+	<controles>
+		<titulo>Cadastro de Cliente</titulo>
+	</controles>
+</internacionalizacao>

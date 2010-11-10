@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<internacionalizacao>
+	<entidade>
+		<nome>Percurso</nome>
+		<propriedades>
+		<propriedade nome='idPercurso'>
+			<nome>Código do Percurso</nome>
+			<abreviacao>Código do Percurso</abreviacao>
+			<descricao>Informe o Código</descricao>
+		</propriedade>
+		<propriedade nome='nmPercurso'>
+			<nome>Nome do Percurso</nome>
+			<abreviacao>Nome do Percuso</abreviacao>
+			<descricao>Informe o Nome do Percurso</descricao>
+		</propriedade>
+		<propriedade nome='idLocalInicio'>
+			<nome>Local Inicio</nome>
+			<abreviacao>Local Inicio</abreviacao>
+			<descricao>Informe o Local de Início da Rota</descricao>
+		</propriedade>
+		<propriedade nome='idLocalFim'>
+			<nome>Local Fim</nome>
+			<abreviacao>Local Fim</abreviacao>
+			<descricao>Informe o Local Fim da Rota</descricao>
+		</propriedade>
+		<propriedade nome='csTipoPercurso'>
+			<nome>Tipo do Percurso</nome>
+			<abreviacao>Tipo do Percurso</abreviacao>
+			<descricao>Informe o Tipo do Percurso</descricao>
+			<dominio>
+				<opcao id='PE'>Pontos Exatos (Locais)</opcao>
+				<opcao id='TR'>Trechos</opcao>
+			</dominio>
+		</propriedade>
+		</propriedades>
+	</entidade>
+	<controles>
+		<titulo>Cadastro de Percurso</titulo>
+	</controles>
+</internacionalizacao>

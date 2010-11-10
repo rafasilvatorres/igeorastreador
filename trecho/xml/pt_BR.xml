@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<internacionalizacao>
+	<entidade>
+		<nome>Trecho</nome>
+		<propriedades>
+		<propriedade nome='idTrecho'>
+			<nome>Código</nome>
+			<abreviacao>Código</abreviacao>
+			<descricao>Informe o Código do Trecho</descricao>
+		</propriedade>
+		<propriedade nome='idPercurso'>
+			<nome>Percurso</nome>
+			<abreviacao>Percurso</abreviacao>
+			<descricao>Informe o Percurso deste Trecho</descricao>
+		</propriedade>
+		<propriedade nome='nrLatitudeInicial'>
+			<nome>Latitude Inicial</nome>
+			<abreviacao>Latitude Inicial</abreviacao>
+			<descricao>Informe a Latitude Inicial</descricao>
+		</propriedade>
+		<propriedade nome='nrLongitudeInicial'>
+			<nome>Longitude Inicial</nome>
+			<abreviacao>Longitude Inicial</abreviacao>
+			<descricao>Informe a Longitude Inicial</descricao>
+		</propriedade>
+		<propriedade nome='nrLatitudeFinal'>
+			<nome>Latitude Final</nome>
+			<abreviacao>Latitude Final</abreviacao>
+			<descricao>Informe a Latitude Final</descricao>
+		</propriedade>
+		<propriedade nome='nrLongitudeFinal'>
+			<nome>Longitude Final</nome>
+			<abreviacao>Longitude Final</abreviacao>
+			<descricao>Informe a Longitude Final</descricao>
+		</propriedade>
+		<propriedade nome='nrOrdem'>
+			<nome>Ordem</nome>
+			<abreviacao>Ordem</abreviacao>
+			<descricao>Informe a Ordem do Trecho</descricao>
+		</propriedade>
+		</propriedades>
+	</entidade>
+	<controles>
+		<titulo>Cadastro de Trecho</titulo>
+	</controles>
+</internacionalizacao>

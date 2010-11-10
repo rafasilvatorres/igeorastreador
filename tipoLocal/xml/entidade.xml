@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<entidade  nomeBanco='tipo_local' nomeSequencia='sq_tipo_local'>
+	<propriedades>
+		<propriedade id='idTipoLocal' tipo='numerico' tamanho='10' obrigatorio='sim' indicePrimario='sim'  >
+			<banco nome='tilo_id_tipo_local'  />
+			<apresentacao componente='oculto'  />
+		</propriedade>
+		<propriedade id='dsTipoLocal' tipo='texto' tamanho='60' descritivo='1'  >
+			<banco nome='tilo_ds_tipo_local' ordem='1'  />
+			<apresentacao componente='caixa de entrada' >
+				<listagem ordem='1' tamanho='40%' />
+			</apresentacao>
+		</propriedade>
+	</propriedades>
+</entidade>
